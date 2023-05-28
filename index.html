@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ruang rasa</title>
+    <title>Ruangrasa.com</title>
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,6 +12,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
       rel="stylesheet"
     />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- feather icons -->
     <script src="https://unpkg.com/feather-icons"></script>
     <!-- my style -->
@@ -37,19 +39,19 @@
 
     <!-- hero section start -->
     <section class="hero" id="home">
-      <main class="content">
+      <main class="content" data-aos="fade-up">
         <h1>Mari Nikmati secangkir<span> kopi</span></h1>
         <p>
           Ketika semua kata tidak lagi banyak berbicara, maka secangkir kopi
           dapat menjadi perantara dan mencairkan semua suasana.
         </p>
-        <a href="#" class="cta">beli sekarang</a>
+        <a href="#" class="cta">BELI SEKARANG</a>
       </main>
     </section>
     <!-- hero section end -->
 
     <!-- about section start -->
-    <section id="about" class="about">
+    <section id="about" class="about" data-aos="fade-down">
       <h2>TENTANG<span> KAMI</span></h2>
       <div class="row">
         <div class="about-img">
@@ -73,7 +75,7 @@
     <!-- about section end -->
 
     <!-- menu section start -->
-    <section id="menu" class="menu">
+    <section id="menu" class="menu" data-aos="fade-left">
       <h2>MENU<span> KAMI </span></h2>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto et
@@ -107,7 +109,7 @@
     <!-- menu section end -->
 
     <!-- contact section start -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact" data-aos="fade-right">
       <h2>KONTAK <span> KAMI</span></h2>
       <p>
         "Jangan Ragukan Untuk Menghubungi Kami" "Kami Siap Membantu Anda" "Ada
@@ -166,6 +168,13 @@
     <!-- feather icons -->
     <script>
       feather.replace();
+    </script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+      });
     </script>
 
     <!-- my javascript -->
