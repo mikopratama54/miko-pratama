@@ -1,8 +1,8 @@
-const navbarNav = document.querySelector("navbar-nav");
+const navbarNav = document.querySelector(".navbar-nav");
 const hamburgerMenu = document.querySelector("#hamburger-menu");
 
 // Ketika hamburger-menu di klik
-hamburgerMenu.addEventListener("click", function () {
+hamburgerMenu.addEventListener("click", () => {
   navbarNav.classList.toggle("active");
 });
 
